@@ -1,4 +1,4 @@
-import { ArrowUpRight, Instagram, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {

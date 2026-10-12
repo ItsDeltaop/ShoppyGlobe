@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchProducts } from '../services/productsApi';
+import { fetchProducts } from '../services/ProductsApi';
 
 // Reusable data hook: owns request lifecycle and cleans up on unmount.
 export default function useProducts() {

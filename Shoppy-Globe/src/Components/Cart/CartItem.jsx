@@ -2,7 +2,7 @@ import { Minus, Plus, Trash2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { removeFromCart, setQuantity } from '../../Features/Cart/cartSlice';
-import { formatPrice } from '../../utils/format';
+import { formatPrice } from '../../Utilities/format';
 
 export default function CartItem({ item }) {
   const dispatch = useDispatch();

@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, CheckCircle2, LockKeyhole } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart, selectCartItems, selectCartSubtotal } from '../Features/Cart/cartSlice';
-import { formatPrice } from '../utils/format';
+import { formatPrice } from '../Utilities/format';
 import { EmptyPanel } from '../Components/Common/StatusPanel';
 
 export default function CheckoutPage() {

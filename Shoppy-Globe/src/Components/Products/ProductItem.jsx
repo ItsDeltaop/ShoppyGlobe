@@ -2,7 +2,7 @@ import { ArrowUpRight, Heart, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../Features/Cart/cartSlice';
-import { formatPrice, titleCase } from '../../utils/format';
+import { formatPrice, titleCase } from '../../Utilities/format';
 
 export default function ProductItem({ product, index = 0 }) {
   const dispatch = useDispatch();

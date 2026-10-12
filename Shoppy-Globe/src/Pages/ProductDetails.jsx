@@ -3,8 +3,8 @@ import { ArrowLeft, ArrowUpRight, Check, Minus, Plus, ShieldCheck, Truck } from 
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../Features/Cart/cartSlice';
-import { fetchProductById } from '../services/productsApi';
-import { formatPrice, titleCase } from '../utils/format';
+import { fetchProductById } from '../services/ProductsApi';
+import { formatPrice, titleCase } from '../Utilities/format';
 import LoadingScreen from '../Components/Common/LoadingScreen';
 import { ErrorPanel } from '../Components/Common/StatusPanel';
 

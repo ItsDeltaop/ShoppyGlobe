@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import CartItem from '../Components/Cart/CartItem';
 import { EmptyPanel } from '../Components/Common/StatusPanel';
 import { selectCartItems, selectCartSubtotal } from '../Features/Cart/cartSlice';
-import { formatPrice } from '../utils/format';
+import { formatPrice } from '../Utilities/format';
 
 export default function CartPage() {
   const items = useSelector(selectCartItems);

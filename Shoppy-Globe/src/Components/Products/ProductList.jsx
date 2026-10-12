@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectSearch, setCategory, setSort } from '../../Features/Search/searchSlice';
 import ProductItem from './ProductItem';
 import { EmptyPanel } from '../Common/StatusPanel';
-import { titleCase } from '../../utils/format';
+import { titleCase } from '../../Utilities/format';
 
 export default function ProductList({ products }) {
   const dispatch = useDispatch();
