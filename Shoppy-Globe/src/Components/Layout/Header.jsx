@@ -1,6 +1,8 @@
 import { ArrowUpRight, Search, ShoppingBag, Sparkles } from 'lucide-react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { selectCartCount } from '../../Features/Cart/cartSlice';
+import { selectSearch, setSearchQuery } from '../../Features/Search/searchSlice';
 
 export default function Header() {
   const count = useSelector(selectCartCount);

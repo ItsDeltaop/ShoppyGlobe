@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-
+import { selectSearch, setCategory, setSort } from '../../Features/Search/searchSlice';
 import ProductItem from './ProductItem';
 import { EmptyPanel } from '../Common/StatusPanel';
 import { titleCase } from '../../utils/format';
